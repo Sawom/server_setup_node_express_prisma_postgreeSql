@@ -80,7 +80,7 @@ Then command:
 npm i --save-dev @types/express
 ```
 
-### For testing if server is running so that we craete a folder named 'src' and create server.ts then we update `server.ts`
+### For testing if server is running then we update `server.ts`
 
 ```ts
 import express from 'express'
