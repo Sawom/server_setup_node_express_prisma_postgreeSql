@@ -104,7 +104,9 @@ app.listen(port, ()=>{
 ### Then command on terminal:
 
 ```bash
-ts-node-dev --respawn --transpile-only src/server.ts
+npm i ts-node-dev --save-dev
+
+npx ts-node-dev --respawn --transpile-only src/server.ts
 ```
 
 Now server setup done.
